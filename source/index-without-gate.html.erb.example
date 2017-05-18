@@ -10,5 +10,4 @@ title: Radio Disney Country - RD Spider-man Sweepstakes
       <%= partial 'partials/contest' %>
     </div>
   </div>
-  <%= partial 'partials/copyright' %>
 </div>
