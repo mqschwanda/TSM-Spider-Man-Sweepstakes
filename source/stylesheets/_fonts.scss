@@ -1,0 +1,26 @@
+@font-face {
+	font-family:'FuturaStd-CondensedBold';
+	src: url('../fonts/FuturaStd-CondensedBold_gdi.eot');
+	src: url('../fonts/FuturaStd-CondensedBold_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FuturaStd-CondensedBold_gdi.woff') format('woff'),
+		url('../fonts/FuturaStd-CondensedBold_gdi.ttf') format('truetype'),
+		url('../fonts/FuturaStd-CondensedBold_gdi.otf') format('opentype'),
+		url('../fonts/FuturaStd-CondensedBold_gdi.svg#FuturaStd-CondensedBold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: condensed;
+	unicode-range: U+0020-00FE;
+}
+
+@font-face {
+  font-family: 'PlacardMT-Condensed';
+  src: url('../fonts/PlacardMT-Condensed_gdi.eot');
+  src: url('../fonts/PlacardMT-Condensed_gdi.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PlacardMT-Condensed_gdi.woff') format('woff'),
+    url('../fonts/PlacardMT-Condensed_gdi.ttf') format('truetype'),
+    url('../fonts/PlacardMT-Condensed_gdi.svg#PlacardMT-Condensed') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-25CA;
+}
