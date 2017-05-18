@@ -1,4 +1,4 @@
-# RDMA Fan Fair X-perience Sweepstakes
+# RDMA Spider-man Homecoming Web Carpet Sweepstakes
 
 ####What does it do?
 This boilerplate is set up to increase my workflow. Hopefully, this can also help you on your way.
@@ -18,10 +18,10 @@ There is also a partial/template for meta info on most social networks.
 
 ####Getting Started
 ```shell
-git clone https://github.com/mqschwanda/TSM-Fan-Fair-Sweepstakes.git
+git clone https://github.com/mqschwanda/TSM-Spider-Man-Sweepstakes.git
 git init
 # The git remote set-url command changes an existing remote repository URL.
-git remote set-url origin https://github.com/mqschwanda/TSM-Fan-Fair-Sweepstakes.git
+git remote set-url origin https://github.com/mqschwanda/TSM-Spider-Man-Sweepstakes.git
 # Adds the files in the local repository and stages them for commit. To unstage a file, use 'git reset HEAD YOUR-FILE'.
 git add .
 # Commits the tracked changes and prepares them to be pushed to a remote repository. To remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit and add the file again.
@@ -37,7 +37,7 @@ bundle install
 
 To fire up the server while in the `TSM-Fan-Fair-Sweepstakes` directory use this command:
 ```shell
-middleman s
+bundle exec middleman s & ruby localtunnel.rb --port 4567 --subdomain start
 ```
 
 If you are having issues with livereload not working fire up the server using:

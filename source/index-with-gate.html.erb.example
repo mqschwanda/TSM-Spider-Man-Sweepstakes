@@ -1,13 +1,15 @@
 ---
-title: Radio Disney Country - RDMA Country Getaway Sweepstakes
+title: Radio Disney Country - RD Spider-man Sweepstakes
 ---
 
 <div class="container-fluid content">
   <%= partial 'partials/header' %>
+  <%= partial 'partials/details' %>
   <div id="content-container">
     <div class="container">
       <%= partial 'partials/contest' %>
     </div>
   </div>
+  <%= partial 'partials/copyright' %>
 </div>
 <%= partial 'partials/gate' %>
