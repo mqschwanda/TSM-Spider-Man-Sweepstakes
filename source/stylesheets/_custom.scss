@@ -8,6 +8,7 @@ $backgroundColor: #000;
 // Font
 $primaryFont: 'PlacardMT-Condensed';
 $secondaryFont: 'FuturaStd-CondensedBold';
+$buttonFont: 'Good-Times';
 $whiteText: #fff;
 $formlabelColor: $primaryColor;
 
@@ -89,31 +90,24 @@ body {
   }
 }
 
-.disney-submit, .enter-button, .again-button {
-  background-attachment: scroll;
-  background-repeat: no-repeat;
+.disney-submit, .enter-button, .again-button, .gate-btn, .word-gate-btn {
+  font-family: $buttonFont;
   background-color: transparent;
-  background-size: contain;
-  background-position: center;
-  border-color: transparent;
+  border: 4px solid $accentColor;
+  color: $accentColor;
+  background-color: transparent;
+  border-radius: 12px;
+  text-transform: uppercase;
+  font-size: 24px;
+  padding: 0 12px;
   -webkit-box-shadow: 0px 0px 215px 0px rgba(255,38,38,0.78);
   -moz-box-shadow: 0px 0px 215px 0px rgba(255,38,38,0.78);
   box-shadow: 0px 0px 215px 0px rgba(255,38,38,0.78);
 }
-.enter-button {
-  background-image: url($aws+$bucket+"enter-button.png");
-  width: 182px;
-  height: 60px;
-  border-radius: 30px;
-}
 .again-button {
-  background-image: url($aws+$bucket+"enter-again-button.png");
-  width: 220px;
-  height: 49px;
-  border-radius: 30px;
   margin-bottom: 22px;
 }
-.disney-submit:focus, .enter-button:focus, .again-button:focus {
+.disney-submit:focus, .enter-button:focus, .again-button:focus, .gate-btn:focus, .word-gate-btn:focus {
   outline: none;
 }
 
@@ -133,17 +127,6 @@ body {
 
 .error {
   color: $errorColor;
-}
-
-.gate-btn{
-  border: 4px solid $accentColor;
-  color: $accentColor;
-  background-color: transparent;
-  border-radius: 12px;
-  text-transform: uppercase;
-  font-size: 30px;
-  // font-family: $accentColor;
-  padding: 0 14px;
 }
 
 #thankyou {
