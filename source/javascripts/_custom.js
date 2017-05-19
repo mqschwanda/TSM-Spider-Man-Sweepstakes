@@ -89,7 +89,7 @@ var successMsg = "<div class=\"embed-responsive embed-responsive-16by9\" style=\
                  "</div>"+
                  "<div id=\"thankyou\" class=\"col-xs-12 text-center\">"+
                    "<h2 class=\"thanks\">Thank you for entering!</h2>"+
-                   "<p>Would you like to enter again?</p>"+
+                   "<p style=\"position: relative; z-index: 9999999;\">Would you like to enter again?</p>"+
                    "<button class=\"again-button\"></button>"+
                   "</div>"
 
