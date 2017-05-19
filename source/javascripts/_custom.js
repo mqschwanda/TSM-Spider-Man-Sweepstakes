@@ -82,7 +82,7 @@ function growlz(){
 
 // successMsg Constructor
 var successMsg = "<div class=\"embed-responsive embed-responsive-16by9\" style=\"top: -25px;\">"+
-                   "<iframe class=\"embed-responsive-item\" src=\"https://www.youtube.com/embed/NrRdaQ_V0P8\"></iframe>"+
+                   "<iframe class=\"embed-responsive-item\" src=\"https://www.youtube.com/embed/NrRdaQ_V0P8?rel=0&playsinline=1&modestbranding=1\"></iframe>"+
                  "</div>"+
                  "<div id=\"thankyou\" class=\"col-xs-12 text-center\">"+
                    "<h2 class=\"thanks\">Thank you for entering!</h2>"+
