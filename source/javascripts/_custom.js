@@ -84,7 +84,14 @@ function growlz(){
 
 
 // successMsg Constructor
-var successMsg = "<div class=\"embed-responsive embed-responsive-16by9\" style=\"top: -25px;\"><iframe class=\"embed-responsive-item\" src=\"https://www.youtube.com/embed/NrRdaQ_V0P8\"></iframe></div><div id=\"thankyou\" class=\"col-xs-12 text-center\"><h2 class=\"thanks\">Thank you for entering!</h2><p>Would you like to enter again?</p><button class=\"again-button\">Enter Again</div></div>"
+var successMsg = "<div class=\"embed-responsive embed-responsive-16by9\" style=\"top: -25px;\">"+
+                   "<iframe class=\"embed-responsive-item\" src=\"https://www.youtube.com/embed/NrRdaQ_V0P8\"></iframe>"+
+                 "</div>"+
+                 "<div id=\"thankyou\" class=\"col-xs-12 text-center\">"+
+                   "<h2 class=\"thanks\">Thank you for entering!</h2>"+
+                   "<p>Would you like to enter again?</p>"+
+                   "<button class=\"again-button\"></button>"+
+                  "</div>"
 
 // dateparse for safari compatibility
 function parseDate(input, format) {
@@ -212,7 +219,7 @@ $("#contest").validate({
     $.growl.notice({ message: "Thanks! We've received your entry." });
     setTimeout(function(){
       $('#contest').parent().html(successMsg);
-      $('.entries, #details, #terms').remove();
+      $('#terms').remove();
     }, 500);
     setTimeout(function(){
       $.scrollTo('#thankyou', 1000, { offset: 0, 'axis': 'y' });
