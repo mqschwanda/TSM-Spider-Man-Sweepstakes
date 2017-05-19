@@ -36,10 +36,7 @@ $(function(){
 // word gate
 $(function(){
 
-  var x ='y',
-  z = 'l',
-  u = 'p',
-  r = 'a';
+  var m = 'e', q = 'w', s = 'b';
 
   $('#word-gate button').on('click', function(e){
     e.preventDefault();
@@ -48,7 +45,7 @@ $(function(){
       $.growl.error({ message: "Please enter the code word." });
     } else {
       codeWord = codeWord.toString().toLowerCase().trim();
-      if(codeWord != (u+z+r+x)){
+      if(codeWord != (q+m+s)){
         $.growl.error({ message: "Sorry, that code word is incorrect!" });
       } else {
         $.growl.notice({ message: "Success! Please enter your birthday." });
