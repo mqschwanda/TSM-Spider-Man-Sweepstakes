@@ -90,7 +90,7 @@ function growlz(){
 //                    "<button class=\"again-button\">Enter Again</button>"+
 //                   "</div>"
 var successMsg = "<div class=\"embed-responsive embed-responsive-16by9\">"+
-                   "<video controls>"+
+                   "<video controls poster=\"https://s3.amazonaws.com/myfangate.com/RD-Spider-Man-Sweepstakes/video-poster.jpg\">"+
                       "<source src=\"https://s3.amazonaws.com/myfangate.com/RD-Spider-Man-Sweepstakes/test-video.mp4\" type=\"video/mp4\">"+
                     "</video>"+
                  "</div>"+
