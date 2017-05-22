@@ -81,8 +81,18 @@ function growlz(){
 
 
 // successMsg Constructor
+// var successMsg = "<div class=\"embed-responsive embed-responsive-16by9\">"+
+//                    "<iframe class=\"embed-responsive-item\" src=\"https://s3.amazonaws.com/myfangate.com/RD-Spider-Man-Sweepstakes/test-video.mp4\"></iframe>"+
+//                  "</div>"+
+//                  "<div id=\"thankyou\" class=\"col-xs-12 text-center\">"+
+//                    "<h2 class=\"thanks\">Thank you for entering!</h2>"+
+//                    "<p style=\"position: relative; z-index: 9999999;\">Would you like to enter again?</p>"+
+//                    "<button class=\"again-button\">Enter Again</button>"+
+//                   "</div>"
 var successMsg = "<div class=\"embed-responsive embed-responsive-16by9\">"+
-                   "<iframe class=\"embed-responsive-item\" src=\"https://www.youtube.com/embed/NrRdaQ_V0P8?rel=0&playsinline=1&modestbranding=1\"></iframe>"+
+                   "<video controls>"+
+                      "<source src=\"https://s3.amazonaws.com/myfangate.com/RD-Spider-Man-Sweepstakes/test-video.mp4\" type=\"video/mp4\">"+
+                    "</video>"+
                  "</div>"+
                  "<div id=\"thankyou\" class=\"col-xs-12 text-center\">"+
                    "<h2 class=\"thanks\">Thank you for entering!</h2>"+
