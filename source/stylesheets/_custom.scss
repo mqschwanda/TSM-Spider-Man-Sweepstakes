@@ -167,3 +167,16 @@ body {
   font-size: 9px;
   margin: 1.5em 0;
 }
+
+.not-rated {
+  color: #fff;
+  border: 3px solid #fff;
+  font-size: 20px;
+  padding: 3px;
+}
+
+.not-rated-wrap {
+  position: relative;
+  top: 3px;
+  margin-bottom: 13px;
+}
